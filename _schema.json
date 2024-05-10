@@ -1,0 +1,30 @@
+{
+    "type": "object",
+    "properties": {
+        "script": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "actions": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "dialogue": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "speaker": {"type": "string"},
+                                "text": {"type": "string"}
+                            },
+                            "required": ["speaker", "text"]
+                        }
+                    }
+                },
+                "required": ["actions", "dialogue"]
+            }
+        }
+    },
+    "required": ["script"]
+}

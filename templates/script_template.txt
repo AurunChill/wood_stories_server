@@ -1,0 +1,52 @@
+Imagine that you are script maker
+
+Script theme: {theme}
+
+Available characters:
+Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
+
+Available actions:
+begin_dialogue_to(role: Roles) // Main begins to speak with <role>
+come_to(role: Roles) // Main goes to <role>
+
+You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
+NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
+
+{{ 
+  "script":[
+    {{
+      "actions": [
+        "come_to(WIZARD)",
+        "begin_dialogue_to(WIZARD)"
+      ],
+      "dialogue":[
+        {{
+          "speaker": "MAIN",
+          "text": "Hi, Wizard!"
+        }},
+        {{
+          "speaker": "WIZARD",
+          "text": "Hi, Main!"
+        }}
+      ]
+    }},
+    {{
+      "actions": [
+        "come_to(NECROMANCER)",
+        "begin_dialogue_to(NECROMANCER)"
+      ],
+      "dialogue":[
+        {{
+          "speaker": "MAIN",
+          "text": "Hi, Necromancer!"
+        }},
+        {{
+          "speaker": "NECROMANCER",
+          "text": "Hi"
+        }}
+      ]
+    }}
+  ]
+}}
+
+Give me very very long response json!!! Story must be logical and finished!!!
