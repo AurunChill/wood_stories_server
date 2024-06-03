@@ -58,5 +58,3 @@ async def handle_prompt(prompt_model: PromptModel):
         # Raise an HTTP exception with an error message
         raise HTTPException(status_code=400, detail=str(e))
     
-
-    # COME_TO WIZARD

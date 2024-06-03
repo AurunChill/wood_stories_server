@@ -1,4 +1,640 @@
-2024-05-11:00:56:39,46 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
+2024-06-03:11:29:32,115 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
+
+Script theme: Main asks wizard about necromancer
+
+Available characters:
+Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
+
+Available actions:
+begin_dialogue_to(role: Roles) // Main begins to speak with <role>
+come_to(role: Roles) // Main goes to <role>
+
+You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
+NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
+
+{ 
+  "script":[
+    {
+      "actions": [
+        "come_to(WIZARD)",
+        "begin_dialogue_to(WIZARD)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Wizard!"
+        },
+        {
+          "speaker": "WIZARD",
+          "text": "Hi, Main!"
+        }
+      ]
+    },
+    {
+      "actions": [
+        "come_to(NECROMANCER)",
+        "begin_dialogue_to(NECROMANCER)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Necromancer!"
+        },
+        {
+          "speaker": "NECROMANCER",
+          "text": "Hi"
+        }
+      ]
+    }
+  ]
+}
+
+Give me very very long response json!!! Story must be logical and finished!!!
+2024-06-03:11:29:41,114 INFO     [logger.py:53] Response received: {'transaction_time': '2024-06-03 11:29:41.113485+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 317, 'completion_tokens': 472, 'total_tokens': 789, 'prompt_price': 0.04565, 'completion_price': 0.2039, 'total_price': 0.24955, 'prompt': 'Imagine that you are script maker\n\nScript theme: Main asks wizard about necromancer\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Greetings, Main! How can I assist you today?"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "I seek your guidance, Wizard. Have you heard of any sightings of the Necromancer nearby?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Ah, the Necromancer. Yes, there have been reports of dark magic in the forest. It is said that the Necromancer is behind it all."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Necromancer, I come to you seeking answers. Are you behind the dark magic in the forest?"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hahaha, yes, it was I who unleashed the darkness upon the land. But fear not, for my powers are not used for evil alone."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Knight, we must stop the Necromancer before he brings more chaos to the realm. Will you join me in this quest?"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I pledge my sword to the cause. Together, we shall vanquish the Necromancer and restore peace to the land."\n        }\n      ]\n    }\n  ]\n}'}
+2024-06-03:11:29:41,121 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
+
+Script theme: Main asks wizard about necromancer
+
+Available characters:
+Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
+
+Available actions:
+begin_dialogue_to(role: Roles) // Main begins to speak with <role>
+come_to(role: Roles) // Main goes to <role>
+
+You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
+NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
+
+{ 
+  "script":[
+    {
+      "actions": [
+        "come_to(WIZARD)",
+        "begin_dialogue_to(WIZARD)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Wizard!"
+        },
+        {
+          "speaker": "WIZARD",
+          "text": "Hi, Main!"
+        }
+      ]
+    },
+    {
+      "actions": [
+        "come_to(NECROMANCER)",
+        "begin_dialogue_to(NECROMANCER)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Necromancer!"
+        },
+        {
+          "speaker": "NECROMANCER",
+          "text": "Hi"
+        }
+      ]
+    }
+  ]
+}
+
+Give me very very long response json!!! Story must be logical and finished!!!
+2024-06-03:11:29:51,902 INFO     [logger.py:53] Response received: {'transaction_time': '2024-06-03 11:29:51.902765+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 317, 'completion_tokens': 703, 'total_tokens': 1020, 'prompt_price': 0.04565, 'completion_price': 0.3037, 'total_price': 0.34935, 'prompt': 'Imagine that you are script maker\n\nScript theme: Main asks wizard about necromancer\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hello, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Greetings, Main! What brings you to my domain today?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I come seeking your wisdom, Wizard. Do you know anything about the necromancer that has been causing havoc in the village?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Ah, yes. The necromancer\'s dark magic has been troubling many. I have heard whispers of their whereabouts. They dwell in the old abandoned castle on the outskirts of the forest."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Greetings, Necromancer."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "What do you want, mortal?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I have come to put an end to your dark deeds. The villagers suffer because of your actions."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Ha! You think you can defeat me? I am more powerful than you can imagine."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I may not have your dark magic, but I have something you don\'t - the courage to stand up to evil."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "We shall see about that. Prepare to face the consequences of crossing me, mortal."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hello, Knight. I need your assistance in defeating the necromancer."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I am at your service, Main. Together, we will vanquish the evil that plagues our lands."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Let us make haste to the abandoned castle and put an end to the necromancer\'s dark reign once and for all."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "You fools think you can defeat me? I will show you the true extent of my power!"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "We will not be swayed by your dark magic, necromancer. For justice and honor!"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Together, we will triumph over evil and bring peace back to the land. The reign of the necromancer ends here!"\n        }\n      ]\n    }\n  ]\n}'}
+2024-06-03:11:29:51,910 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
+
+Script theme: Main asks wizard about necromancer
+
+Available characters:
+Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
+
+Available actions:
+begin_dialogue_to(role: Roles) // Main begins to speak with <role>
+come_to(role: Roles) // Main goes to <role>
+
+You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
+NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
+
+{ 
+  "script":[
+    {
+      "actions": [
+        "come_to(WIZARD)",
+        "begin_dialogue_to(WIZARD)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Wizard!"
+        },
+        {
+          "speaker": "WIZARD",
+          "text": "Hi, Main!"
+        }
+      ]
+    },
+    {
+      "actions": [
+        "come_to(NECROMANCER)",
+        "begin_dialogue_to(NECROMANCER)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Necromancer!"
+        },
+        {
+          "speaker": "NECROMANCER",
+          "text": "Hi"
+        }
+      ]
+    }
+  ]
+}
+
+Give me very very long response json!!! Story must be logical and finished!!!
+2024-06-03:11:30:02,956 INFO     [logger.py:53] Response received: {'transaction_time': '2024-06-03 11:30:02.956209+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 317, 'completion_tokens': 679, 'total_tokens': 996, 'prompt_price': 0.04565, 'completion_price': 0.29333, 'total_price': 0.33898, 'prompt': 'Imagine that you are script maker\n\nScript theme: Main asks wizard about necromancer\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script": [\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue": [\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Greetings, Main. What brings you to my doorstep today?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I seek your wisdom, Wizard. I have heard rumors of a powerful necromancer lurking in the shadows. Do you know anything about this dark magic user?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Ah, the necromancer... Yes, I am aware of their presence. They have been causing chaos and spreading fear throughout the land."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue": [\n        {\n          "speaker": "MAIN",\n          "text": "Hello, Necromancer. I have come to confront you about your dark deeds."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Ah, Main. You have finally found me. What do you plan to do now that you have discovered my existence?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I seek to stop your evil ways and put an end to the suffering you have caused. Your necromancy must be stopped."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "You cannot defeat me, Main. My powers are beyond your comprehension. I will not be stopped so easily."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I will not rest until you are vanquished, Necromancer. Your reign of terror ends now."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "We shall see, Main. Prepare yourself for the battle of a lifetime."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I am ready. Let our fate be decided on the battlefield."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue": [\n        {\n          "speaker": "MAIN",\n          "text": "Greetings, Knight. I seek your aid in defeating the necromancer that plagues our land."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I am at your service, Main. Together, we will rid the kingdom of this evil presence."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Thank you, Knight. Let us march towards the necromancer\'s lair and bring an end to their dark reign once and for all."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Onward, Main. Our destiny awaits us."        \n        }\n      ]\n    }\n  ]\n}'}
+2024-06-03:11:30:02,964 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
+
+Script theme: Main speaks with knight about wizard
+
+Available characters:
+Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
+
+Available actions:
+begin_dialogue_to(role: Roles) // Main begins to speak with <role>
+come_to(role: Roles) // Main goes to <role>
+
+You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
+NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
+
+{ 
+  "script":[
+    {
+      "actions": [
+        "come_to(WIZARD)",
+        "begin_dialogue_to(WIZARD)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Wizard!"
+        },
+        {
+          "speaker": "WIZARD",
+          "text": "Hi, Main!"
+        }
+      ]
+    },
+    {
+      "actions": [
+        "come_to(NECROMANCER)",
+        "begin_dialogue_to(NECROMANCER)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Necromancer!"
+        },
+        {
+          "speaker": "NECROMANCER",
+          "text": "Hi"
+        }
+      ]
+    }
+  ]
+}
+
+Give me very very long response json!!! Story must be logical and finished!!!
+2024-06-03:11:30:18,417 INFO     [logger.py:53] Response received: {'transaction_time': '2024-06-03 11:30:18.417341+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 316, 'completion_tokens': 960, 'total_tokens': 1276, 'prompt_price': 0.0455, 'completion_price': 0.41472, 'total_price': 0.46022, 'prompt': 'Imagine that you are script maker\n\nScript theme: Main speaks with knight about wizard\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Greetings, Knight!"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Greetings, Main! What brings you to me?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I have heard rumors of a powerful wizard in the area. Have you encountered them?"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Indeed, I have heard stories of the wizard\'s magical abilities. They are said to be unmatched."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I must speak with this wizard. Can you tell me where to find them?"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "The wizard dwells in the enchanted forest to the east. But beware, for their powers are both great and mysterious."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Greetings, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Greetings, Main! What brings you to my humble abode?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I seek your guidance and wisdom, mighty wizard. The knight spoke of your incredible powers."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "I am but a humble servant of the magical arts. What troubles you, Main?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I need your help to defeat a dark necromancer who threatens our land. Will you aid me in this quest?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "I sense the darkness that surrounds the necromancer. I will lend you my powers, Main, to ensure the safety of our realm."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Greetings, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Ah, Main. What brings you to my domain?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Your dark magic has caused much harm to the innocents of this land. I have come to put an end to your malevolent ways."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Foolish mortal. You cannot hope to defeat me and my undead minions."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Prepare to face my wrath!"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I call upon the powers of the wizard and the knight to aid me in this battle. Together, we will vanquish you, necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "You may have allies, Main, but you will not prevail against me!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(MAIN)",\n        "begin_dialogue_to(MAIN)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "WIZARD",\n          "text": "Well done, Main. The necromancer has been defeated and peace has returned to our land."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "You have shown great courage and skill in battle, Main. The kingdom is forever in your debt."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I could not have done it without your help, wizard and knight. Together, we have proven that true strength lies in unity."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "And so, our adventure comes to an end. But know that should darkness ever threaten our realm again, we will stand united to face it."\n        }\n      ]\n    }\n  ]\n}'}
+2024-06-03:11:30:18,423 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
+
+Script theme: Main speaks with knight about wizard
+
+Available characters:
+Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
+
+Available actions:
+begin_dialogue_to(role: Roles) // Main begins to speak with <role>
+come_to(role: Roles) // Main goes to <role>
+
+You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
+NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
+
+{ 
+  "script":[
+    {
+      "actions": [
+        "come_to(WIZARD)",
+        "begin_dialogue_to(WIZARD)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Wizard!"
+        },
+        {
+          "speaker": "WIZARD",
+          "text": "Hi, Main!"
+        }
+      ]
+    },
+    {
+      "actions": [
+        "come_to(NECROMANCER)",
+        "begin_dialogue_to(NECROMANCER)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Necromancer!"
+        },
+        {
+          "speaker": "NECROMANCER",
+          "text": "Hi"
+        }
+      ]
+    }
+  ]
+}
+
+Give me very very long response json!!! Story must be logical and finished!!!
+2024-06-03:11:30:28,973 INFO     [logger.py:53] Response received: {'transaction_time': '2024-06-03 11:30:28.973623+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 316, 'completion_tokens': 674, 'total_tokens': 990, 'prompt_price': 0.0455, 'completion_price': 0.29117, 'total_price': 0.33667, 'prompt': 'Imagine that you are script maker\n\nScript theme: Main speaks with knight about wizard\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Greetings, brave knight!"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Greetings, traveler. What brings you to my kingdom?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I seek information about a powerful wizard rumored to reside in these lands."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Ah, you must be referring to the wise old wizard who dwells in the tower on the hill. He is a being of great power and knowledge."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I must find him. Can you tell me how to reach his tower?"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Of course. You must travel through the enchanted forest, across the river of shadows, and up the winding path to the tower. But be warned, the journey is perilous and many have lost their way."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I am prepared for whatever challenges may come. Thank you, brave knight, for your guidance."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Go with caution, traveler, and may luck be on your side."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Greetings, wise wizard. I have traveled far seeking your counsel."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Welcome, traveler. What is it that you seek from me?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I have heard of your great wisdom and power. I come seeking guidance on a matter of grave importance."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Speak, and I shall do my best to aid you."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I am on a quest to unlock the secrets of an ancient artifact that is said to hold immense power. I believe you may hold the key to its mysteries."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Ah, the artifact you speak of is indeed of great significance. I can sense the power it holds, but unlocking its secrets will not be easy. You must prove yourself worthy of such knowledge."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I will do whatever it takes to prove myself. Please, guide me on this journey."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Very well. Follow me, and together we shall delve into the depths of magic and unlock the mysteries of the artifact."\n        }\n      ]\n    }\n  ]\n}'}
+2024-06-03:11:30:28,983 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
+
+Script theme: Main speaks with knight about wizard
+
+Available characters:
+Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
+
+Available actions:
+begin_dialogue_to(role: Roles) // Main begins to speak with <role>
+come_to(role: Roles) // Main goes to <role>
+
+You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
+NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
+
+{ 
+  "script":[
+    {
+      "actions": [
+        "come_to(WIZARD)",
+        "begin_dialogue_to(WIZARD)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Wizard!"
+        },
+        {
+          "speaker": "WIZARD",
+          "text": "Hi, Main!"
+        }
+      ]
+    },
+    {
+      "actions": [
+        "come_to(NECROMANCER)",
+        "begin_dialogue_to(NECROMANCER)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Necromancer!"
+        },
+        {
+          "speaker": "NECROMANCER",
+          "text": "Hi"
+        }
+      ]
+    }
+  ]
+}
+
+Give me very very long response json!!! Story must be logical and finished!!!
+2024-06-03:11:30:44,729 INFO     [logger.py:53] Response received: {'transaction_time': '2024-06-03 11:30:44.728794+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 316, 'completion_tokens': 913, 'total_tokens': 1229, 'prompt_price': 0.0455, 'completion_price': 0.39442, 'total_price': 0.43992, 'prompt': 'Imagine that you are script maker\n\nScript theme: Main speaks with knight about wizard\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hello, Knight!"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Greetings, Main. What brings you to my castle today?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I have come to seek your advice about a powerful wizard in the nearby forest."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Ah, you must be referring to the legendary wizard who resides there. What do you need to know?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I have heard rumors that this wizard possesses great magic and I am intrigued by it. Do you think it is safe to approach him?"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Approaching a wizard is always a risky endeavor, but if you are respectful and cautious, he may be willing to share his knowledge with you."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Greetings, wise wizard."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Welcome, traveler. What brings you to my humble abode?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I have been told of your incredible powers and I seek to learn from you. Will you take me as your apprentice?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "I sense great potential in you, but before I can accept you as my apprentice, you must complete a task for me."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "What must I do, wise wizard?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "There is a necromancer in the dark forest who threatens the balance of nature. Defeat him and bring me his staff as proof of your strength."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hello, dark necromancer."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Who dares to disturb my solitude? What do you want?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I have come to put an end to your dark deeds and restore balance to the forest. Surrender now and I will spare your life."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Foolish mortal, you cannot defeat me! I will drain your life force and add it to my minions."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I will not let your evil continue. Prepare to face the light!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Wise wizard, I have completed the task you set for me. Here is the staff of the necromancer."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Impressive, young one. You have shown great courage and determination. I will take you as my apprentice and teach you the ways of magic."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Thank you, wise wizard. I am honored to learn from you."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Together, we will unlock the mysteries of the universe and protect the realm from darkness. Welcome to the world of magic, apprentice."\n        }\n      ]\n    }\n  ]\n}'}
+2024-06-03:11:30:44,736 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
+
+Script theme: Main asks wizard to find his lost keys
+
+Available characters:
+Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
+
+Available actions:
+begin_dialogue_to(role: Roles) // Main begins to speak with <role>
+come_to(role: Roles) // Main goes to <role>
+
+You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
+NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
+
+{ 
+  "script":[
+    {
+      "actions": [
+        "come_to(WIZARD)",
+        "begin_dialogue_to(WIZARD)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Wizard!"
+        },
+        {
+          "speaker": "WIZARD",
+          "text": "Hi, Main!"
+        }
+      ]
+    },
+    {
+      "actions": [
+        "come_to(NECROMANCER)",
+        "begin_dialogue_to(NECROMANCER)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Necromancer!"
+        },
+        {
+          "speaker": "NECROMANCER",
+          "text": "Hi"
+        }
+      ]
+    }
+  ]
+}
+
+Give me very very long response json!!! Story must be logical and finished!!!
+2024-06-03:11:30:52,366 INFO     [logger.py:53] Response received: {'transaction_time': '2024-06-03 11:30:52.366916+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 318, 'completion_tokens': 417, 'total_tokens': 735, 'prompt_price': 0.04579, 'completion_price': 0.18014, 'total_price': 0.22593, 'prompt': 'Imagine that you are script maker\n\nScript theme: Main asks wizard to find his lost keys\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main! How can I help you today?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I seem to have lost my keys and I was hoping you could use your magical abilities to help me find them."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Ah, lost keys are a common problem. I will do my best to assist you. Let me use my powers to locate them."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hello, Knight! Have you seen my lost keys anywhere?"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I have not, but I can help you search for them. Let us go on a quest to find your keys!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Greetings, Necromancer. Can you use your dark arts to help me locate my lost keys?"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hmm, I can sense a disturbance in the spirit realm. Your keys may have been taken by mischievous spirits. I will summon them to return your keys."\n        }\n      ]\n    }\n  ]\n}'}
+2024-06-03:11:30:52,374 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
+
+Script theme: Main asks wizard to find his lost keys
+
+Available characters:
+Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
+
+Available actions:
+begin_dialogue_to(role: Roles) // Main begins to speak with <role>
+come_to(role: Roles) // Main goes to <role>
+
+You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
+NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
+
+{ 
+  "script":[
+    {
+      "actions": [
+        "come_to(WIZARD)",
+        "begin_dialogue_to(WIZARD)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Wizard!"
+        },
+        {
+          "speaker": "WIZARD",
+          "text": "Hi, Main!"
+        }
+      ]
+    },
+    {
+      "actions": [
+        "come_to(NECROMANCER)",
+        "begin_dialogue_to(NECROMANCER)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Necromancer!"
+        },
+        {
+          "speaker": "NECROMANCER",
+          "text": "Hi"
+        }
+      ]
+    }
+  ]
+}
+
+Give me very very long response json!!! Story must be logical and finished!!!
+2024-06-03:11:31:29,827 INFO     [logger.py:53] Response received: {'transaction_time': '2024-06-03 11:31:29.827261+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 318, 'completion_tokens': 1834, 'total_tokens': 2152, 'prompt_price': 0.04579, 'completion_price': 0.79229, 'total_price': 0.83808, 'prompt': 'Imagine that you are script maker\n\nScript theme: Main asks wizard to find his lost keys\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main! How can I assist you today?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I seem to have lost my keys and I was hoping you could help me find them."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Lost keys, you say? Let me use my magical powers to locate them for you."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Greetings, Knight!"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Hello, Main! How can I be of service?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I have lost my keys and the Wizard is helping me locate them. Do you have any advice on where to search?"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I suggest checking the various rooms in your castle, perhaps they were misplaced there."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Back to you, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Let me consult my crystal ball to see where your keys might be hiding."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Thank you, Wizard. Your magic is truly impressive."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Have you found any clues, Wizard?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Yes, Main. It seems your keys are located in the enchanted forest. I can guide you there."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hello, Necromancer."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Greetings. What brings you to my dark realm?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "The Wizard has located my keys in the enchanted forest. Do you have any advice before I embark on this journey?"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Beware of the creatures that dwell in the forest. They are not to be underestimated."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Knight, I seek your guidance once more."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "What troubles you, Main?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I am heading to the enchanted forest to retrieve my keys. Will you accompany me on this perilous journey?"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I will gladly join you, for your quest is now mine as well."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Wizard, we are off to the enchanted forest. Any final words of wisdom?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Remember to trust in yourself and your companions. May the magic of the forest guide you."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Knight, the time has come to face the challenges of the enchanted forest."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I stand by your side, Main. Together, we shall overcome whatever obstacles come our way."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Necromancer, we seek your guidance before entering the enchanted forest."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "The forest holds many secrets and dangers. May your wits and bravery be your allies."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Knight, let us venture into the enchanted forest and retrieve my lost keys."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I am ready, Main. Together, we shall find your keys and return safely."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Wizard, we are about to enter the enchanted forest. Any final enchantments to aid us?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "I shall cast a protective spell upon you. May it shield you from harm on your quest."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Knight, the time has come. Let us find the keys that have eluded me for so long."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I will not fail you, Main. Together, we shall succeed in this noble endeavor."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Wizard, we have braved the enchanted forest. Do you sense where my keys are?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Yes, Main. Your keys are hidden beneath the ancient oak tree. Let us retrieve them together."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Knight, the moment of truth has arrived. Let us reclaim what is rightfully mine."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "With honor and valor, we shall retrieve your keys, Main. Together, we are unstoppable."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Wizard, we have found the keys. Your magic has guided us to success."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "I am glad to have been of service, Main. May your keys never stray far from your possession again."\n        }\n      ]\n    }\n  ]\n}'}
+2024-06-03:11:31:29,844 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
+
+Script theme: Main asks wizard to find his lost keys
+
+Available characters:
+Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
+
+Available actions:
+begin_dialogue_to(role: Roles) // Main begins to speak with <role>
+come_to(role: Roles) // Main goes to <role>
+
+You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
+NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
+
+{ 
+  "script":[
+    {
+      "actions": [
+        "come_to(WIZARD)",
+        "begin_dialogue_to(WIZARD)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Wizard!"
+        },
+        {
+          "speaker": "WIZARD",
+          "text": "Hi, Main!"
+        }
+      ]
+    },
+    {
+      "actions": [
+        "come_to(NECROMANCER)",
+        "begin_dialogue_to(NECROMANCER)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Necromancer!"
+        },
+        {
+          "speaker": "NECROMANCER",
+          "text": "Hi"
+        }
+      ]
+    }
+  ]
+}
+
+Give me very very long response json!!! Story must be logical and finished!!!
+2024-06-03:11:31:45,41 INFO     [logger.py:53] Response received: {'transaction_time': '2024-06-03 11:31:45.041031+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 318, 'completion_tokens': 825, 'total_tokens': 1143, 'prompt_price': 0.04579, 'completion_price': 0.3564, 'total_price': 0.40219, 'prompt': 'Imagine that you are script maker\n\nScript theme: Main asks wizard to find his lost keys\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main! How can I help you today?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I seem to have lost my keys and I was hoping you could help me find them with your magic."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Of course! I will do my best to locate your lost keys. Let me conjure up a spell to assist us in this quest."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hello, Knight!"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Greetings, Main! What brings you to me today?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I am in need of your help. I have lost my keys and the Wizard is searching for them with his magic. I was wondering if you could assist us in our quest."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I will gladly join you in your search for the lost keys. Let us embark on this adventure together."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hello again, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Welcome back, Main. I have been using my magic to scry for your lost keys, but it seems they are well hidden."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Thank you for your efforts, Wizard. Perhaps with the Knight\'s help, we can cover more ground in our search."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Good to see you again, Knight!"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Likewise, Main. I am ready to assist in the search for your lost keys. Let us not rest until we find them."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Together, with the Wizard\'s magic and your strength, I have faith that we will recover my lost keys in no time."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Wizard, Knight, I have news! I have found my keys. They were in the most unexpected place."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Congratulations, Main! I am glad to hear that your keys have been recovered."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Well done, Main. I knew that with our combined efforts, we would succeed in our quest."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I am grateful for your assistance, Wizard and Knight. Thank you for helping me find my lost keys."\n        }\n      ]\n    }\n  ]\n}'}
+2024-06-03:11:31:45,49 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
+
+Script theme: Main have conflict with necromancer
+
+Available characters:
+Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
+
+Available actions:
+begin_dialogue_to(role: Roles) // Main begins to speak with <role>
+come_to(role: Roles) // Main goes to <role>
+
+You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
+NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
+
+{ 
+  "script":[
+    {
+      "actions": [
+        "come_to(WIZARD)",
+        "begin_dialogue_to(WIZARD)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Wizard!"
+        },
+        {
+          "speaker": "WIZARD",
+          "text": "Hi, Main!"
+        }
+      ]
+    },
+    {
+      "actions": [
+        "come_to(NECROMANCER)",
+        "begin_dialogue_to(NECROMANCER)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Necromancer!"
+        },
+        {
+          "speaker": "NECROMANCER",
+          "text": "Hi"
+        }
+      ]
+    }
+  ]
+}
+
+Give me very very long response json!!! Story must be logical and finished!!!
+2024-06-03:11:31:53,79 INFO     [logger.py:53] Response received: {'transaction_time': '2024-06-03 11:31:53.079241+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 317, 'completion_tokens': 435, 'total_tokens': 752, 'prompt_price': 0.04565, 'completion_price': 0.18792, 'total_price': 0.23357, 'prompt': 'Imagine that you are script maker\n\nScript theme: Main have conflict with necromancer\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hey, Wizard! I need your help."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "What seems to be the problem, Main?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "There is a necromancer causing trouble in the village. I need your magic to defeat him."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "I see. Let us go and confront this necromancer together."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Necromancer, your evil deeds have come to an end."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Foolish mortal, you dare challenge me?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I will not let your dark magic harm anyone else. It ends here."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "You cannot defeat me, for I hold power beyond your imagination."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Your dark magic may be strong, but the light of good will always prevail."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "You may have defeated me this time, but beware, for darkness always finds a way back."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "We will remain vigilant and ready to face any challenge that arises."\n        }\n      ]\n    }\n  ]\n}'}
+2024-06-03:11:31:53,92 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
+
+Script theme: Main have conflict with necromancer
+
+Available characters:
+Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
+
+Available actions:
+begin_dialogue_to(role: Roles) // Main begins to speak with <role>
+come_to(role: Roles) // Main goes to <role>
+
+You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
+NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
+
+{ 
+  "script":[
+    {
+      "actions": [
+        "come_to(WIZARD)",
+        "begin_dialogue_to(WIZARD)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Wizard!"
+        },
+        {
+          "speaker": "WIZARD",
+          "text": "Hi, Main!"
+        }
+      ]
+    },
+    {
+      "actions": [
+        "come_to(NECROMANCER)",
+        "begin_dialogue_to(NECROMANCER)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Necromancer!"
+        },
+        {
+          "speaker": "NECROMANCER",
+          "text": "Hi"
+        }
+      ]
+    }
+  ]
+}
+
+Give me very very long response json!!! Story must be logical and finished!!!
+2024-06-03:11:32:05,721 INFO     [logger.py:53] Response received: {'transaction_time': '2024-06-03 11:32:05.721074+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 317, 'completion_tokens': 696, 'total_tokens': 1013, 'prompt_price': 0.04565, 'completion_price': 0.30067, 'total_price': 0.34632, 'prompt': 'Imagine that you are script maker\n\nScript theme: Main have conflict with necromancer\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hello, Knight. I have a mission for you."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "What is it, Main?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I have heard rumors of a necromancer causing trouble in the kingdom. I need you to investigate."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I will do my best to uncover the truth."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Necromancer, I know what you have been doing."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "What do you mean, Main?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "You have been raising the dead and causing chaos in the kingdom. It must stop."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Why should I listen to you, Main? The power I wield is unmatched."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Because if you continue down this path, the consequences will be severe."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "I will not be stopped by the likes of you, Main. Prepare to face my wrath!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Knight, the necromancer has proven to be a formidable opponent. We must stop them before it\'s too late."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I am ready to face any challenge, Main. Let\'s confront the necromancer together."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "KNIGHT",\n          "text": "Necromancer, your reign of terror ends now!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "You think you can defeat me, Knight? You are sorely mistaken."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I will not let you harm any more innocent lives. Prepare for justice to be served."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "You may have defeated me this time, but I will return stronger than ever. Mark my words, Knight and Main."\n        }\n      ]\n    }\n  ]\n}'}
+2024-06-03:11:32:05,738 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
+
+Script theme: Main have conflict with necromancer
+
+Available characters:
+Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
+
+Available actions:
+begin_dialogue_to(role: Roles) // Main begins to speak with <role>
+come_to(role: Roles) // Main goes to <role>
+
+You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
+NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
+
+{ 
+  "script":[
+    {
+      "actions": [
+        "come_to(WIZARD)",
+        "begin_dialogue_to(WIZARD)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Wizard!"
+        },
+        {
+          "speaker": "WIZARD",
+          "text": "Hi, Main!"
+        }
+      ]
+    },
+    {
+      "actions": [
+        "come_to(NECROMANCER)",
+        "begin_dialogue_to(NECROMANCER)"
+      ],
+      "dialogue":[
+        {
+          "speaker": "MAIN",
+          "text": "Hi, Necromancer!"
+        },
+        {
+          "speaker": "NECROMANCER",
+          "text": "Hi"
+        }
+      ]
+    }
+  ]
+}
+
+Give me very very long response json!!! Story must be logical and finished!!!
+2024-06-03:11:32:16,347 INFO     [logger.py:53] Response received: {'transaction_time': '2024-06-03 11:32:16.347312+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 317, 'completion_tokens': 604, 'total_tokens': 921, 'prompt_price': 0.04565, 'completion_price': 0.26093, 'total_price': 0.30658, 'prompt': 'Imagine that you are script maker\n\nScript theme: Main have conflict with necromancer\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard! I need your help."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "What can I do for you, Main?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "There is a necromancer causing chaos in the village. I need your magic to stop him."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "I understand. Let\'s go and confront the necromancer together."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Necromancer, your dark deeds must come to an end. You are no match for us."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Fools! You dare challenge me? I will crush you both with my army of undead!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "We will not let your darkness consume this land. Prepare to face the power of magic!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "You may have magic on your side, but my army of undead will overwhelm you!"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "We must stand strong and fight together. We can defeat him if we work as a team."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "I will use my spells to weaken his magic. Attack now, Main!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "No! How can you be winning? My power is unmatched!"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Your darkness cannot withstand the light of justice. Surrender now, necromancer."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "I will not be defeated! I will return with even greater power and crush you all!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "We have vanquished the necromancer. His evil will not trouble this land again."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Thank you, Wizard, for your help in defeating the necromancer. We make a great team."\n        }\n      ]\n    }\n  ]\n}'}
+2024-06-03:11:56:54,717 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
 
 Script theme: Main asks wizard about strange necromancer
 
@@ -50,481 +686,4 @@ NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME
 }
 
 Give me very very long response json!!! Story must be logical and finished!!!
-2024-05-11:00:56:49,203 INFO     [logger.py:53] Response received: {'transaction_time': '2024-05-11 00:56:49.202864+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 318, 'completion_tokens': 620, 'total_tokens': 938, 'prompt_price': 0.04579, 'completion_price': 0.26784, 'total_price': 0.31363, 'prompt': 'Imagine that you are script maker\n\nScript theme: Main asks wizard about strange necromancer\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main! What brings you here today?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I have heard rumors about a strange necromancer roaming the lands. Have you heard anything about this?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Indeed, I have. The necromancer\'s dark magic has been causing havoc in the nearby villages. It is said that he is raising the dead to do his bidding."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Greetings, Necromancer. I have come to speak with you."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "What do you want, mortal? Why have you come to my domain?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I seek to understand why you are using your powers for such dark purposes. Do you not see the harm you are causing?"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Harm? I bring balance to the world. The dead serve me willingly, and I use their power to achieve my goals. Why should I care about the concerns of mere mortals?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Your actions are not justified. You are disrupting the natural order of life and death. I urge you to reconsider your path before it is too late."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "You speak of things you do not understand, mortal. Leave me be or face the consequences of crossing a powerful necromancer."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I will not stand idly by while you continue to wreak havoc. I will find a way to stop you and restore peace to the land."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Foolish mortal! You cannot hope to defeat me. I am the master of death itself. Prepare to face my wrath!"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I will not back down. I will find a way to defeat you and put an end to your dark reign. The light will prevail over darkness."\n        }\n      ]\n    }\n  ]\n}'}
-2024-05-11:00:58:18,408 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
-
-Script theme: main asks wizard about strange necromancer
-
-Available characters:
-Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
-
-Available actions:
-begin_dialogue_to(role: Roles) // Main begins to speak with <role>
-come_to(role: Roles) // Main goes to <role>
-
-You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
-NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
-
-{ 
-  "script":[
-    {
-      "actions": [
-        "come_to(WIZARD)",
-        "begin_dialogue_to(WIZARD)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Wizard!"
-        },
-        {
-          "speaker": "WIZARD",
-          "text": "Hi, Main!"
-        }
-      ]
-    },
-    {
-      "actions": [
-        "come_to(NECROMANCER)",
-        "begin_dialogue_to(NECROMANCER)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Necromancer!"
-        },
-        {
-          "speaker": "NECROMANCER",
-          "text": "Hi"
-        }
-      ]
-    }
-  ]
-}
-
-Give me very very long response json!!! Story must be logical and finished!!!
-2024-05-11:00:58:27,214 INFO     [logger.py:53] Response received: {'transaction_time': '2024-05-11 00:58:27.212103+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 318, 'completion_tokens': 573, 'total_tokens': 891, 'prompt_price': 0.04579, 'completion_price': 0.24754, 'total_price': 0.29333, 'prompt': 'Imagine that you are script maker\n\nScript theme: main asks wizard about strange necromancer\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main! What brings you to me today?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I have heard about a strange necromancer in the nearby woods. Have you heard anything about this?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Yes, I have heard whispers of this necromancer. They are said to be powerful and dangerous. We must be cautious."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hello, Necromancer. I have come to speak with you about your practices."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Greetings. What do you wish to know?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I have heard rumors of dark magic and raising the dead. Is this true?"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Yes, I have the power to control the forces of death. But I use it responsibly and for the greater good."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "There have been reports of undead creatures roaming the woods. Are you behind this?"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "I am not responsible for those abominations. Someone else is using necromancy for nefarious purposes."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Greetings, Knight. We need your help to investigate the mysterious necromancer in the woods."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I am ready to serve and protect. Lead the way."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Together, we will uncover the truth behind these dark forces and put an end to the necromancer\'s reign of terror."\n        }\n      ]\n    }\n  ]\n}'}
-2024-05-11:01:03:46,644 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
-
-Script theme: main asks wizard to tell his story
-
-Available characters:
-Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
-
-Available actions:
-begin_dialogue_to(role: Roles) // Main begins to speak with <role>
-come_to(role: Roles) // Main goes to <role>
-
-You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
-NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
-
-{ 
-  "script":[
-    {
-      "actions": [
-        "come_to(WIZARD)",
-        "begin_dialogue_to(WIZARD)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Wizard!"
-        },
-        {
-          "speaker": "WIZARD",
-          "text": "Hi, Main!"
-        }
-      ]
-    },
-    {
-      "actions": [
-        "come_to(NECROMANCER)",
-        "begin_dialogue_to(NECROMANCER)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Necromancer!"
-        },
-        {
-          "speaker": "NECROMANCER",
-          "text": "Hi"
-        }
-      ]
-    }
-  ]
-}
-
-Give me very very long response json!!! Story must be logical and finished!!!
-2024-05-11:01:03:59,726 INFO     [logger.py:53] Response received: {'transaction_time': '2024-05-11 01:03:59.724839+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 317, 'completion_tokens': 760, 'total_tokens': 1077, 'prompt_price': 0.04565, 'completion_price': 0.32832, 'total_price': 0.37397, 'prompt': 'Imagine that you are script maker\n\nScript theme: main asks wizard to tell his story\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard! I have heard so much about you and your magical abilities. Would you mind sharing your story with me?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Greetings, Main. Of course, I would be delighted to share my tale with you. It all started long ago, in a land far away."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "I was just a young apprentice then, studying under a powerful sorcerer who taught me the ways of magic. I learned to harness the elements, to cast spells, and to unlock the secrets of the universe."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "As time passed, I grew in skill and knowledge, eventually becoming a full-fledged wizard in my own right. I traveled the land, using my powers to help those in need and to protect the innocent from dark forces."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "But my greatest challenge came when I faced off against the evil Necromancer, who sought to unleash an army of the undead upon the world. It was a battle of epic proportions, with magic and mayhem colliding in a fierce struggle for the fate of the realm."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "In the end, I emerged victorious, banishing the Necromancer and his minions from the land. Since then, I have continued to use my powers for good, always ready to defend the innocent and uphold the forces of light."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hello, Necromancer. I have heard of your clash with the Wizard. Would you care to share your side of the story?"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Greetings, Main. It is true that the Wizard and I have a long history of conflict. But know this - my intentions were never as sinister as they were made out to be."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "I am a practitioner of the dark arts, yes, but my goal was never to bring harm to the innocent. It was the Wizard who, in his self-righteousness, sought to thwart my plans and label me as a villain."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "I may have dabbled in necromancy, raising the dead to do my bidding, but I always did so with a purpose. I sought to uncover the mysteries of life and death, to push the boundaries of what magic could achieve."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "And in the end, when the Wizard defeated me, it was not because I was evil, but because he feared what he could not understand. But mark my words, Main - my story is far from over. The Necromancer will rise again, and the Wizard will rue the day he crossed paths with me."\n        }\n      ]\n    }\n  ]\n}'}
-2024-05-11:01:25:08,572 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
-
-Script theme: main asks wizard to tell his story 
-
-Available characters:
-Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
-
-Available actions:
-begin_dialogue_to(role: Roles) // Main begins to speak with <role>
-come_to(role: Roles) // Main goes to <role>
-
-You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
-NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
-
-{ 
-  "script":[
-    {
-      "actions": [
-        "come_to(WIZARD)",
-        "begin_dialogue_to(WIZARD)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Wizard!"
-        },
-        {
-          "speaker": "WIZARD",
-          "text": "Hi, Main!"
-        }
-      ]
-    },
-    {
-      "actions": [
-        "come_to(NECROMANCER)",
-        "begin_dialogue_to(NECROMANCER)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Necromancer!"
-        },
-        {
-          "speaker": "NECROMANCER",
-          "text": "Hi"
-        }
-      ]
-    }
-  ]
-}
-
-Give me very very long response json!!! Story must be logical and finished!!!
-2024-05-11:01:25:18,981 INFO     [logger.py:53] Response received: {'transaction_time': '2024-05-11 01:25:18.979874+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 317, 'completion_tokens': 742, 'total_tokens': 1059, 'prompt_price': 0.04565, 'completion_price': 0.32054, 'total_price': 0.36619, 'prompt': 'Imagine that you are script maker\n\nScript theme: main asks wizard to tell his story \n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Oh wise Wizard, I come seeking knowledge and guidance. Will you share your story with me?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Greetings, Main. Long have I walked the path of the arcane, studying the secrets of the universe. Sit, and I shall tell you of my journey."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "I was once a young apprentice, eager to learn the ways of magic. My mentor taught me the fundamentals, but it was through my own exploration and experimentation that I truly began to grasp the power that lay dormant within me."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "I delved into ancient tomes, deciphered cryptic incantations, and communed with mystical beings. Each challenge I faced, each obstacle overcome, only fueled my thirst for greater knowledge."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Through years of study and practice, I honed my skills and mastered the art of spellcasting. I became known far and wide as a formidable wizard, capable of wielding magic beyond imagination."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "But with great power comes great responsibility. I have used my abilities to protect the innocent, to uphold justice, and to combat the forces of darkness that threaten our world."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "And what of you, noble Knight? Will you share your tale with me as well?"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Of course, Main. My story may not be as grand or magical as the Wizard\'s, but it is a story of honor, duty, and sacrifice."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I was born into a family of noble lineage, raised with the values of chivalry and bravery. From a young age, I trained in the ways of combat, striving to become a skilled swordsman and a protector of the realm."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "As I grew older, I took up arms and rode into battle alongside my fellow knights, defending our kingdom from invaders and tyrants. I faced countless foes, experienced both victory and defeat, and forged bonds of brotherhood that have stood the test of time."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "But it was not until I faced my greatest challenge, a dark sorcerer wielding forbidden magic, that I truly understood the meaning of sacrifice. In a final duel to save our land, I gave everything I had, risking my life to protect those I swore to defend."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "And though I emerged victorious, the cost was great. I carry the scars of that battle with me still, a reminder of the price of valor and the duty that comes with the title of Knight."\n        }\n      ]\n    }\n  ]\n}'}
-2024-05-11:01:28:40,197 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
-
-Script theme: main asks necromancer about his story and why he became dark mage
-
-Available characters:
-Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
-
-Available actions:
-begin_dialogue_to(role: Roles) // Main begins to speak with <role>
-come_to(role: Roles) // Main goes to <role>
-
-You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
-NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
-
-{ 
-  "script":[
-    {
-      "actions": [
-        "come_to(WIZARD)",
-        "begin_dialogue_to(WIZARD)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Wizard!"
-        },
-        {
-          "speaker": "WIZARD",
-          "text": "Hi, Main!"
-        }
-      ]
-    },
-    {
-      "actions": [
-        "come_to(NECROMANCER)",
-        "begin_dialogue_to(NECROMANCER)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Necromancer!"
-        },
-        {
-          "speaker": "NECROMANCER",
-          "text": "Hi"
-        }
-      ]
-    }
-  ]
-}
-
-Give me very very long response json!!! Story must be logical and finished!!!
-2024-05-11:01:28:47,187 INFO     [logger.py:53] Response received: {'transaction_time': '2024-05-11 01:28:47.185404+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 324, 'completion_tokens': 527, 'total_tokens': 851, 'prompt_price': 0.04666, 'completion_price': 0.22766, 'total_price': 0.27432, 'prompt': 'Imagine that you are script maker\n\nScript theme: main asks necromancer about his story and why he became dark mage\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main! What brings you here today?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I wanted to ask you about the Necromancer. I\'ve heard rumors about his dark magic and I\'m curious about his story. Do you know anything?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Ah, the Necromancer. Yes, I\'ve crossed paths with him before. He was once a skilled mage like myself, but something tragic happened that led him down a dark path."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer. I\'ve been wanting to know more about your story. Why did you become a dark mage?"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Greetings, Main. My story is a tragic one. I was once a respected mage, but I lost everything that was dear to me. In my grief and desperation, I turned to darker magic to try and bring back what I had lost."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "But as I delved deeper into the forbidden arts of necromancy, I lost myself to the darkness. The power consumed me and I became the very thing I once feared. Now, I am known as the Necromancer, feared by all who know my name."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I\'m sorry to hear that. Is there no way back for you, Necromancer? Can you not find redemption?"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "I fear it is too late for me, Main. The darkness has taken hold of my soul and redemption seems like a distant dream. But perhaps with time, who knows what the future may hold..."\n        }\n      ]\n    }\n  ]\n}'}
-2024-05-11:01:30:42,501 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
-
-Script theme: main asks knight about her story 
-
-Available characters:
-Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
-
-Available actions:
-begin_dialogue_to(role: Roles) // Main begins to speak with <role>
-come_to(role: Roles) // Main goes to <role>
-
-You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
-NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
-
-{ 
-  "script":[
-    {
-      "actions": [
-        "come_to(WIZARD)",
-        "begin_dialogue_to(WIZARD)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Wizard!"
-        },
-        {
-          "speaker": "WIZARD",
-          "text": "Hi, Main!"
-        }
-      ]
-    },
-    {
-      "actions": [
-        "come_to(NECROMANCER)",
-        "begin_dialogue_to(NECROMANCER)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Necromancer!"
-        },
-        {
-          "speaker": "NECROMANCER",
-          "text": "Hi"
-        }
-      ]
-    }
-  ]
-}
-
-Give me very very long response json!!! Story must be logical and finished!!!
-2024-05-11:01:30:50,150 INFO     [logger.py:53] Response received: {'transaction_time': '2024-05-11 01:30:50.148977+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 316, 'completion_tokens': 524, 'total_tokens': 840, 'prompt_price': 0.0455, 'completion_price': 0.22637, 'total_price': 0.27187, 'prompt': 'Imagine that you are script maker\n\nScript theme: main asks knight about her story \n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hello, honorable Knight! I have heard tales of your bravery on the battlefield. Would you be willing to share your story with me?"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Greetings, Main. I appreciate your interest in my journey. I am more than happy to recount the tale."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Please, share with me. How did you become a Knight?"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "It all began many years ago, when I was but a youth. My village was under attack by a ruthless warlord and his band of marauders. I witnessed the devastation and vowed to protect my people. I sought out a master swordsman who trained me in the ways of combat and chivalry."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "That is truly inspiring. What was your first quest as a Knight?"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "My first quest was to rescue a princess who had been captured by a dragon. It was a perilous journey, but with my skills and courage, I was able to defeat the beast and free the princess. From that moment on, I was hailed as a hero and dubbed a Knight."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "What challenges have you faced since then?"\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I have faced many trials and battles since that fateful day. I have fought against dark sorcerers, vicious beasts, and treacherous foes who sought to bring harm to the innocent. Each victory has strengthened my resolve to protect the realm and uphold the code of chivalry."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Your dedication to duty is truly admirable. Thank you for sharing your story with me, Knight. You are a shining example of courage and honor."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "It was my pleasure, Main. May your own journey be filled with valor and wisdom. Farewell."\n        }\n      ]\n    }\n  ]\n}'}
-2024-05-11:01:33:15,145 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
-
-Script theme: main convience wizard to kill necromancer. The goes to necromancer for batt
-
-Available characters:
-Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
-
-Available actions:
-begin_dialogue_to(role: Roles) // Main begins to speak with <role>
-come_to(role: Roles) // Main goes to <role>
-
-You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
-NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
-
-{ 
-  "script":[
-    {
-      "actions": [
-        "come_to(WIZARD)",
-        "begin_dialogue_to(WIZARD)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Wizard!"
-        },
-        {
-          "speaker": "WIZARD",
-          "text": "Hi, Main!"
-        }
-      ]
-    },
-    {
-      "actions": [
-        "come_to(NECROMANCER)",
-        "begin_dialogue_to(NECROMANCER)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Necromancer!"
-        },
-        {
-          "speaker": "NECROMANCER",
-          "text": "Hi"
-        }
-      ]
-    }
-  ]
-}
-
-Give me very very long response json!!! Story must be logical and finished!!!
-2024-05-11:01:33:24,298 INFO     [logger.py:53] Response received: {'transaction_time': '2024-05-11 01:33:24.297415+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 328, 'completion_tokens': 532, 'total_tokens': 860, 'prompt_price': 0.04723, 'completion_price': 0.22982, 'total_price': 0.27705, 'prompt': 'Imagine that you are script maker\n\nScript theme: main convience wizard to kill necromancer. The goes to necromancer for batt\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main! What brings you to my humble abode?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I seek your assistance, Wizard. There is a necromancer terrorizing the land, and I need your magical powers to defeat him."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "I see. Necromancers are dangerous foes, but fear not, for with my knowledge and your courage, we shall prevail. Let us make haste to confront this vile necromancer!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer! Your reign of terror ends here and now!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Fools! You dare challenge me, the mighty necromancer? Prepare to meet your doom!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Your dark magic may be powerful, but it pales in comparison to the light of justice and righteousness!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "You think you can defeat me? I am invincible, immortal!"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "We shall see about that, necromancer. Prepare to face the wrath of the righteous!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "No! This cannot be! I am defeated!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Victory is ours! The land is safe once more, thanks to our courage and determination."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Indeed. Let this be a lesson to all who would seek to use dark magic for malevolent purposes. Good has triumphed over evil once again."\n        }\n      ]\n    }\n  ]\n}'}
-2024-05-11:01:50:11,957 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
-
-Script theme: main asks wizard to teach him dark mage. Wizard declines. Then goes to necromancer
-
-Available characters:
-Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
-
-Available actions:
-begin_dialogue_to(role: Roles) // Main begins to speak with <role>
-come_to(role: Roles) // Main goes to <role>
-
-You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
-NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
-
-{ 
-  "script":[
-    {
-      "actions": [
-        "come_to(WIZARD)",
-        "begin_dialogue_to(WIZARD)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Wizard!"
-        },
-        {
-          "speaker": "WIZARD",
-          "text": "Hi, Main!"
-        }
-      ]
-    },
-    {
-      "actions": [
-        "come_to(NECROMANCER)",
-        "begin_dialogue_to(NECROMANCER)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Necromancer!"
-        },
-        {
-          "speaker": "NECROMANCER",
-          "text": "Hi"
-        }
-      ]
-    }
-  ]
-}
-
-Give me very very long response json!!! Story must be logical and finished!!!
-2024-05-11:01:50:20,447 INFO     [logger.py:53] Response received: {'transaction_time': '2024-05-11 01:50:20.446352+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 328, 'completion_tokens': 597, 'total_tokens': 925, 'prompt_price': 0.04723, 'completion_price': 0.2579, 'total_price': 0.30513, 'prompt': 'Imagine that you are script maker\n\nScript theme: main asks wizard to teach him dark mage. Wizard declines. Then goes to necromancer\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n\t"script": [{\n\t\t\t"actions": [\n\t\t\t\t"come_to(WIZARD)",\n\t\t\t\t"begin_dialogue_to(WIZARD)"\n\t\t\t],\n\t\t\t"dialogue": [{\n\t\t\t\t\t"speaker": "MAIN",\n\t\t\t\t\t"text": "Hi, Wizard!"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "WIZARD",\n\t\t\t\t\t"text": "Hi, Main! How can I assist you today?"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t"actions": [\n\t\t\t\t"begin_dialogue_to(WIZARD)"\n\t\t\t],\n\t\t\t"dialogue": [{\n\t\t\t\t\t"speaker": "MAIN",\n\t\t\t\t\t"text": "I want to learn the ways of the dark mage. Will you teach me, Wizard?"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "WIZARD",\n\t\t\t\t\t"text": "I\'m sorry, Main. I cannot teach you dark magic. It is dangerous and can lead to great harm."\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "MAIN",\n\t\t\t\t\t"text": "But I am determined to learn. Please reconsider, Wizard."\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "WIZARD",\n\t\t\t\t\t"text": "I cannot in good conscience teach you dark magic. It goes against everything I stand for."\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "MAIN",\n\t\t\t\t\t"text": "Very well. I will find someone else who can teach me."\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t"actions": [\n\t\t\t\t"come_to(NECROMANCER)",\n\t\t\t\t"begin_dialogue_to(NECROMANCER)"\n\t\t\t],\n\t\t\t"dialogue": [{\n\t\t\t\t\t"speaker": "MAIN",\n\t\t\t\t\t"text": "Hello, Necromancer. I seek your guidance."\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "NECROMANCER",\n\t\t\t\t\t"text": "Greetings, Main. What brings you to me?"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "MAIN",\n\t\t\t\t\t"text": "I wish to learn the dark arts of necromancy. Will you teach me?"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "NECROMANCER",\n\t\t\t\t\t"text": "I see the fire in your eyes, Main. I will teach you the ways of necromancy, but be warned, the path is dark and treacherous."\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "MAIN",\n\t\t\t\t\t"text": "I am prepared for the challenges ahead. Thank you, Necromancer."\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "NECROMANCER",\n\t\t\t\t\t"text": "Come, Main. Let us begin your journey into the world of necromancy."\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t]\n}'}
-2024-05-11:02:02:50,296 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
-
-Script theme: main asks wizard his story
-
-Available characters:
-Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
-
-Available actions:
-begin_dialogue_to(role: Roles) // Main begins to speak with <role>
-come_to(role: Roles) // Main goes to <role>
-
-You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
-NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
-
-{ 
-  "script":[
-    {
-      "actions": [
-        "come_to(WIZARD)",
-        "begin_dialogue_to(WIZARD)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Wizard!"
-        },
-        {
-          "speaker": "WIZARD",
-          "text": "Hi, Main!"
-        }
-      ]
-    },
-    {
-      "actions": [
-        "come_to(NECROMANCER)",
-        "begin_dialogue_to(NECROMANCER)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Necromancer!"
-        },
-        {
-          "speaker": "NECROMANCER",
-          "text": "Hi"
-        }
-      ]
-    }
-  ]
-}
-
-Give me very very long response json!!! Story must be logical and finished!!!
-2024-05-11:02:03:01,446 INFO     [logger.py:53] Response received: {'transaction_time': '2024-05-11 02:03:01.445872+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 315, 'completion_tokens': 751, 'total_tokens': 1066, 'prompt_price': 0.04536, 'completion_price': 0.32443, 'total_price': 0.36979, 'prompt': 'Imagine that you are script maker\n\nScript theme: main asks wizard his story\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard! I\'ve heard a lot about your magical abilities. Could you tell me your story?"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Of course, Main. My story is a long and winding one. I was born in a small village, where I discovered my affinity for magic at a young age."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "As I grew older, I sought out masters to train under, honing my skills and learning the secrets of the arcane arts. I traveled far and wide, seeking knowledge and power."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "After many years of study and practice, I became a powerful wizard, known throughout the land for my wisdom and magical prowess. I have helped many in need and fought against the forces of darkness."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer! I\'ve heard rumors about your dark powers. Can you share your story with me?"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Greetings, Main. My story is not one for the faint of heart. I was once a simple healer, using my abilities to save lives and bring comfort to the sick and injured."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "But tragedy struck when a deadly plague ravaged my village, claiming the lives of many. Desperate to find a cure, I delved into forbidden dark arts, seeking the power to defy death itself."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Through my studies, I became a necromancer, wielding the power to raise the dead and command spirits. Though many fear and shun me, I continue to use my abilities to protect those I care about."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hello, Knight! Your valor and chivalry are renowned. I would love to hear the story of your adventures."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Greetings, Main. I am but a humble servant of the realm, sworn to uphold justice and protect the innocent. My tale is one of battles fought and honor upheld."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I was raised in the noble house of my ancestors, trained from a young age in the ways of combat and nobility. When the kingdom called for champions to defend against evil, I heeded the call."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Through many trials and tribulations, I have faced formidable foes and emerged victorious. My sword and shield are always at the ready, to defend the helpless and bring peace to the land."\n        }\n      ]\n    }\n  ]\n}'}
-2024-05-11:02:07:39,296 INFO     [logger.py:53] Requesting response from gpt-3.5-turbo-0125 with prompt: Imagine that you are script maker
-
-Script theme: huba buab
-
-Available characters:
-Roles: MAIN, WIZARD, NECROMANCER, KNIGHT
-
-Available actions:
-begin_dialogue_to(role: Roles) // Main begins to speak with <role>
-come_to(role: Roles) // Main goes to <role>
-
-You must send me json data of script. Example of data (!your response strictly follow the pattern!) 
-NEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!
-
-{ 
-  "script":[
-    {
-      "actions": [
-        "come_to(WIZARD)",
-        "begin_dialogue_to(WIZARD)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Wizard!"
-        },
-        {
-          "speaker": "WIZARD",
-          "text": "Hi, Main!"
-        }
-      ]
-    },
-    {
-      "actions": [
-        "come_to(NECROMANCER)",
-        "begin_dialogue_to(NECROMANCER)"
-      ],
-      "dialogue":[
-        {
-          "speaker": "MAIN",
-          "text": "Hi, Necromancer!"
-        },
-        {
-          "speaker": "NECROMANCER",
-          "text": "Hi"
-        }
-      ]
-    }
-  ]
-}
-
-Give me very very long response json!!! Story must be logical and finished!!!
-2024-05-11:02:07:47,497 INFO     [logger.py:53] Response received: {'transaction_time': '2024-05-11 02:07:47.496659+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 314, 'completion_tokens': 607, 'total_tokens': 921, 'prompt_price': 0.04522, 'completion_price': 0.26222, 'total_price': 0.30744, 'prompt': 'Imagine that you are script maker\n\nScript theme: huba buab\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n\t"script": [{\n\t\t\t"actions": [\n\t\t\t\t"come_to(WIZARD)",\n\t\t\t\t"begin_dialogue_to(WIZARD)"\n\t\t\t],\n\t\t\t"dialogue": [{\n\t\t\t\t\t"speaker": "MAIN",\n\t\t\t\t\t"text": "Hi, Wizard!"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "WIZARD",\n\t\t\t\t\t"text": "Hi, Main! What brings you to my tower today?"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "MAIN",\n\t\t\t\t\t"text": "I\'ve heard rumors of a powerful artifact hidden within these walls. I seek your guidance on how to find it."\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "WIZARD",\n\t\t\t\t\t"text": "Ah, yes. The artifact you seek is indeed here, but be warned, it is heavily guarded by magical traps and creatures."\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t"actions": [\n\t\t\t\t"come_to(NECROMANCER)",\n\t\t\t\t"begin_dialogue_to(NECROMANCER)"\n\t\t\t],\n\t\t\t"dialogue": [{\n\t\t\t\t\t"speaker": "MAIN",\n\t\t\t\t\t"text": "Greetings, Necromancer. I come seeking your dark knowledge."\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "NECROMANCER",\n\t\t\t\t\t"text": "What do you wish to know, mortal?"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "MAIN",\n\t\t\t\t\t"text": "I seek the secrets of immortality. Can you teach me the forbidden arts of necromancy?"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "NECROMANCER",\n\t\t\t\t\t"text": "Immortality comes at a steep price, but if you are willing to pay it, I can show you the way."\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t"actions": [\n\t\t\t\t"come_to(KNIGHT)",\n\t\t\t\t"begin_dialogue_to(KNIGHT)"\n\t\t\t],\n\t\t\t"dialogue": [{\n\t\t\t\t\t"speaker": "MAIN",\n\t\t\t\t\t"text": "Hello, Knight. I require your strength and valor for a quest that lies ahead."\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "KNIGHT",\n\t\t\t\t\t"text": "I am always ready to stand by your side, my lord. What is it that you ask of me?"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "MAIN",\n\t\t\t\t\t"text": "I need you to lead my army into battle against the tyrant who threatens our land. Will you join me in this fight?"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t"speaker": "KNIGHT",\n\t\t\t\t\t"text": "I will follow you to the ends of the earth, my liege. Together, we shall vanquish our enemies and bring peace to our people."\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t]\n}'}
+2024-06-03:11:57:09,514 INFO     [logger.py:53] Response received: {'transaction_time': '2024-06-03 11:57:09.512349+03:00', 'user_role': 'user', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 318, 'completion_tokens': 795, 'total_tokens': 1113, 'prompt_price': 0.04579, 'completion_price': 0.34344, 'total_price': 0.38923, 'prompt': 'Imagine that you are script maker\n\nScript theme: Main asks wizard about strange necromancer\n\nAvailable characters:\nRoles: MAIN, WIZARD, NECROMANCER, KNIGHT\n\nAvailable actions:\nbegin_dialogue_to(role: Roles) // Main begins to speak with <role>\ncome_to(role: Roles) // Main goes to <role>\n\nYou must send me json data of script. Example of data (!your response strictly follow the pattern!) \nNEVER USE MAIN IN ACTIONS. THERE ONLY TWO ROLES IN "dialogue". THERE ALWAYS COME_TO BEFORE BEGIN_DIALOGUE_TO!\n\n{ \n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Hi, Main!"\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Hi, Necromancer!"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Hi"\n        }\n      ]\n    }\n  ]\n}\n\nGive me very very long response json!!! Story must be logical and finished!!!', 'response': '{\n  "script":[\n    {\n      "actions": [\n        "come_to(WIZARD)",\n        "begin_dialogue_to(WIZARD)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Greetings, wise Wizard!"\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "Ah, Main! What brings you to my humble abode?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I seek your guidance, for there have been rumors of a strange necromancer lurking in the shadows of our kingdom."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "A necromancer, you say? That is indeed troubling. Tell me more about what you have heard."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(NECROMANCER)",\n        "begin_dialogue_to(NECROMANCER)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Greetings, mysterious Necromancer."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "Welcome, traveler. What brings you to me?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "I come seeking answers. There have been whispers of dark magic and raised spirits in our land, and many believe you are behind it."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "I am but a humble practitioner of the dark arts. I have not raised any spirits, but I sense a disturbance in the balance of magic."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "What do you mean by a disturbance?"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "There is a powerful force at play, one that threatens to disrupt the harmony between the living and the dead."\n        },\n        {\n          "speaker": "MAIN",\n          "text": "Can you help us stop this force, Necromancer?"\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "I can sense its dark energy, but I alone cannot stop it. We must seek the aid of the Knights, for they are the protectors of our realm."\n        }\n      ]\n    },\n    {\n      "actions": [\n        "come_to(KNIGHT)",\n        "begin_dialogue_to(KNIGHT)"\n      ],\n      "dialogue":[\n        {\n          "speaker": "MAIN",\n          "text": "Greetings, valiant Knight."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Hail, traveler. What brings you to me?"\n        },\n        {\n          "speaker": "MAIN",\n          "text": "We stand in need of your prowess, for a great darkness threatens our land. The Necromancer speaks of a powerful force that must be stopped."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "I have long sensed the presence of this dark force. We must rally our forces and confront this threat head-on."\n        },\n        {\n          "speaker": "NECROMANCER",\n          "text": "I will lend you my aid, for the balance of magic must be restored."\n        },\n        {\n          "speaker": "WIZARD",\n          "text": "And I shall provide what knowledge and wisdom I possess to guide us in this endeavor."\n        },\n        {\n          "speaker": "KNIGHT",\n          "text": "Then let us join together, united in purpose, to vanquish this darkness once and for all!"\n        }\n      ]\n    }\n  ]\n}'}

@@ -13,6 +13,7 @@ db.sqlite3
 media/
 
 .env
+.pytest_cache/
 
 # Node js stuff
 node_modules
